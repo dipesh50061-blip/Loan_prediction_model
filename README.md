@@ -1,16 +1,16 @@
-# 🏦 Loan Prediction Model
+# Loan Prediction Model
 
 A Machine Learning project that explores loan applicant data, performs Exploratory Data Analysis (EDA), and builds classification models to predict loan approval status. The project also includes an interactive Streamlit web application for making predictions.
 
 > **Important:** The `Loan_Status` target column in this project was synthetically generated for learning and experimentation. Predictions and evaluation metrics do not represent real-world banking performance.
 
-## 📌 Project Overview
+## Project Overview
 
 Loan approval decisions can depend on several factors, including applicant income, credit history, loan amount, education, employment status, and property area.
 
 The goal of this project is to explore these factors, understand the dataset, build machine learning classification models, and create a simple web application for interacting with the selected model.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Perform Exploratory Data Analysis (EDA) using Pandas, Matplotlib, and Seaborn.
 - Understand numerical and categorical features.
@@ -22,7 +22,7 @@ The goal of this project is to explore these factors, understand the dataset, bu
 - Save the selected trained model using Joblib.
 - Build an interactive prediction application using Streamlit.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Loan_prediction_model/
@@ -45,7 +45,7 @@ Loan_prediction_model/
 └── requirements.txt
 ```
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset contains **367 records and 13 columns**, including the synthetically generated target column `Loan_Status`.
 
@@ -77,7 +77,7 @@ The target distribution is:
 
 These labels were generated for educational purposes and are not actual bank decisions.
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The EDA notebook covers the following analyses:
 
@@ -109,7 +109,7 @@ The EDA notebook covers the following analyses:
 7. Credit history has a strong relationship with the synthetic target because of the target-generation rules.
 8. The target classes are imbalanced, with approximately 77% `Y` and 23% `N`.
 
-## 🤖 Machine Learning Workflow
+## Machine Learning Workflow
 
 The project follows this workflow:
 
@@ -147,7 +147,7 @@ The project follows this workflow:
 
 The model comparison and evaluation results are available in `notebooks/02_modeling.ipynb`.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python** — Programming language
 - **Pandas** — Data manipulation and analysis
@@ -159,7 +159,7 @@ The model comparison and evaluation results are available in `notebooks/02_model
 - **Jupyter Notebook** — EDA and experimentation
 - **Streamlit** — Interactive web application
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 
@@ -208,7 +208,7 @@ data/loan_prediction.csv
 
 The file must contain the `Loan_Status` column expected by the modeling notebook. In this project, that target is synthetic.
 
-## 🚀 Running the Project
+## Running the Project
 
 ### Run the EDA Notebook
 
@@ -244,7 +244,7 @@ streamlit run app.py
 
 Open the local URL displayed in your terminal. Enter the applicant details and submit the form to view the predicted class and, when supported by the selected model, class probabilities.
 
-## 📈 Results and Limitations
+## Results and Limitations
 
 The modeling notebook compares several classification algorithms using a consistent train-test split and evaluation metrics.
 
@@ -255,7 +255,7 @@ The modeling notebook compares several classification algorithms using a consist
 - The resulting scores should not be interpreted as evidence that the model can predict actual bank decisions.
 - The current test-set comparison is suitable for an initial learning experiment; a stronger evaluation would use cross-validation for model selection and a separate holdout test set for final evaluation.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Obtain a properly licensed dataset containing genuine loan outcomes.
 - Use cross-validation and a separate holdout test set.
@@ -266,7 +266,7 @@ The modeling notebook compares several classification algorithms using a consist
 - Deploy the application to a suitable hosting platform.
 - Add automated tests and a reproducible training pipeline.
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I practiced:
 
@@ -279,7 +279,7 @@ Through this project, I practiced:
 - Saving and loading trained models.
 - Integrating a machine learning model into a Streamlit application.
 
-## 👨‍💻 Author
+## Author
 
 **Depesh Kumar**
 *AI Engineer intern*
